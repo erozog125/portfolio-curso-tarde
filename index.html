@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio de Ed</title>
+  <style>
+    :root {
+      --sky-blue: #87ceeb;
+      --white: #ffffff;
+      --dark-blue: #003366;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--white);
+      color: var(--dark-blue);
+      background-color: rgb(31, 65, 103);
+    }
+
+    header {
+      background-color: var(--sky-blue);
+      padding: 2rem;
+      text-align: center;
+      color: var(--white);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background-color: var(--dark-blue);
+      color: var(--white);
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: var(--white);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      border-bottom: 2px solid var(--sky-blue);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .project {
+      background-color: #f0f8ff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid var(--sky-blue);
+    }
+
+    footer {
+      background-color: var(--dark-blue);
+      color: var(--white);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .tools {
+      margin-top: 1rem;
+    }
+
+    .tools span {
+      background-color: var(--sky-blue);
+      color: var(--dark-blue);
+      padding: 0.3rem 0.7rem;
+      margin: 0.2rem;
+      border-radius: 10px;
+      display: inline-block;
+    }
+
+    a {
+      color: var(--sky-blue);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ed | Desarrollador de Software</h1>
+    <p>¡Construyendo código y tejido social al mismo tiempo!</p>
+  </header>
+
+  <nav>
+    <a href="#perfil">Perfil</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#estudios">Estudios</a>
+    <a href="#proyectos">Proyectos</a>
+  </nav>
+
+  <section id="perfil">
+    <h2>Perfil</h2>
+    <p>Soy un apasionado por la tecnología y la educación. Me dedico a crear soluciones digitales con impacto social, motivando a otros a descubrir el poder del software.</p>
+  </section>
+
+  <section id="experiencia">
+    <h2>Experiencia</h2>
+    <ul>
+      <li><strong>Instructor de Software</strong> – Formación técnica y desarrollo de proyectos educativos. (2020 - Actualidad)</li>
+      <li><strong>Desarrollador Fullstack</strong> – Node.js, React, MongoDB en proyectos sociales. (2019 - 2023)</li>
+    </ul>
+  </section>
+
+  <section id="estudios">
+    <h2>Estudios</h2>
+    <ul>
+      <li>Técnico Profesional en Desarrollo de Software</li>
+      <li>Certificaciones en Scrum, Power BI, MongoDB, y más</li>
+    </ul>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+
+    <div class="project">
+      <h3>EdDev - Chatbot de Agenda</h3>
+      <p>Un asistente personal con IA, integrado con Google Calendar y WhatsApp, pensado para productividad personal.</p>
+    </div>
+
+    <div class="project">
+      <h3>App TODO List FullStack</h3>
+      <p>Aplicación construida con React, Express y MongoDB con arquitectura modular y RESTful API.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contacto: <strong>ed.dev@email.com</strong> | 📍 Colombia</p>
+    
+    <div class="tools">
+      <p><strong>Herramientas que manejo:</strong></p>
+      <span>JavaScript</span>
+      <span>TypeScript</span>
+      <span>React</span>
+      <span>Node.js</span>
+      <span>MongoDB</span>
+      <span>Express</span>
+      <span>Git & GitHub</span>
+      <span>Power BI</span>
+    </div>
+
+    <p>🎥 Visita mi canal: <a href="https://youtube.com/@eddev" target="_blank">https://youtube.com/@eddev</a></p>
+    <p style="margin-top: 1rem;">© 2025 EdDev</p>
+  </footer>
+
+</body>
+</html>
